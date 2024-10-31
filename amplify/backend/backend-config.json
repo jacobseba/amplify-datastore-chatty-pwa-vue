@@ -1,15 +1,6 @@
 {
-  "auth": {
-    "amplifydatastored5016fb7": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": []
-    }
-  },
   "api": {
     "ChattyAPI": {
-      "service": "AppSync",
-      "providerPlugin": "awscloudformation",
       "output": {
         "authConfig": {
           "additionalAuthenticationProviders": [],
@@ -20,13 +11,22 @@
             }
           }
         }
-      }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "amplifydatastored5016fb7": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
     }
   },
   "hosting": {
     "S3AndCloudFront": {
-      "service": "S3AndCloudFront",
-      "providerPlugin": "awscloudformation"
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
     }
   }
 }

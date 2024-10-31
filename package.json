@@ -8,25 +8,30 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@aws-amplify/core": "^3.2.4",
+    "@aws-amplify/auth": "^6.5.4",
+    "@aws-amplify/core": "^6.4.7",
     "@aws-amplify/datastore": "^2.4.0",
-    "@aws-amplify/ui-vue": "^0.2.18",
-    "aws-amplify": "^3.0.8",
+    "@aws-amplify/interactions": "^6.0.53",
+    "@aws-amplify/storage": "^6.6.12",
+    "@aws-amplify/ui-components": "^1.9.40",
+    "@aws-amplify/ui-vue": "^4.2.22",
+    "aws-amplify": "^6.6.7",
     "core-js": "^3.6.4",
     "moment": "^2.24.0",
     "register-service-worker": "^1.7.1",
-    "vue": "^2.6.11"
+    "vue": "^3.5.12",
+    "vue-loader": "^16.0.0",
+    "vue-template-compiler": "^2.7.16"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
-    "@vue/cli-plugin-pwa": "^4.5.6",
-    "@vue/cli-service": "~4.3.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-pwa": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^7.5.0",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11",
-    "workbox-webpack-plugin": "^5.1.4"
+    "workbox-webpack-plugin": "^7.1.0"
   },
   "eslintConfig": {
     "root": true,
