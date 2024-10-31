@@ -23,13 +23,7 @@
       "service": "Cognito"
     }
   },
-  "function": {
-    "dummyFunction": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    }
-  },
+  "function": {},
   "hosting": {
     "S3AndCloudFront": {
       "providerPlugin": "awscloudformation",
