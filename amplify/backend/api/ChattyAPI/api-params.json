@@ -1,0 +1,9 @@
+{
+  "authConfig": {
+    "additionalAuthenticationProviders": [
+      {
+        "authenticationType": "API_KEY"
+      }
+    ]
+  }
+}
