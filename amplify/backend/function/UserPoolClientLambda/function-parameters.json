@@ -1,4 +1,4 @@
 {
-    "Runtime": "nodejs18.x"
+    "runtime": "nodejs18.x"
 }
-  
+
