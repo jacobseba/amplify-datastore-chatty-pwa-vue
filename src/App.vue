@@ -4,7 +4,7 @@
   import * as subscriptions from './graphql/subscriptions';
   import { generateClient } from 'aws-amplify/api';
   import { onMounted, ref } from 'vue';
-  import { Authenticator } from '@aws-amplify/ui-vue';
+ // import { Authenticator } from '@aws-amplify/ui-vue';
   import '@aws-amplify/ui-vue/styles.css';
 
   const name = ref('');
