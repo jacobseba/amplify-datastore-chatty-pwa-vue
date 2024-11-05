@@ -1,7 +1,5 @@
 {
-  "providers": [
-    "awscloudformation"
-  ],
+  "whyContinueWithGen1": "Prefer not to answer",
   "projectName": "amplifydatastorechat",
   "version": "3.1",
   "frontend": "javascript",
@@ -10,8 +8,11 @@
     "config": {
       "SourceDir": "src",
       "DistributionDir": "dist",
-      "BuildCommand": "npm run build",
-      "StartCommand": "npm run serve"
+      "BuildCommand": "npm.cmd run-script build",
+      "StartCommand": "npm.cmd run-script serve"
     }
-  }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
 }
